@@ -1,0 +1,36 @@
+{
+  "translation": {
+    "header": {
+      "navigation": {
+        "aboutUs": "About us",
+        "hackathons": "Hackathons",
+        "projects": "Projects",
+        "contactUs": "Contact Us"
+      }
+    },
+    "home": {
+      "title": "Привіт світ!"
+    },
+    "contactUs": {
+      "title": "Контакти"
+    },
+    "team": {
+      "title": "Про нас"
+    },
+    "member": {
+      "title": "Учасник"
+    },
+    "hackathons": {
+      "title": "Хакатони"
+    },
+    "hackathon": {
+      "title": "Хакатон"
+    },
+    "projects": {
+      "title": "Проекти"
+    },
+    "project": {
+      "title": "Проект"
+    }
+  }
+}

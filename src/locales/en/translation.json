@@ -1,0 +1,36 @@
+{
+  "translation": {
+    "header": {
+      "navigation": {
+        "aboutUs": "About us",
+        "hackathons": "Hackathons",
+        "projects": "Projects",
+        "contactUs": "Contact Us"
+      }
+    },
+    "home": {
+      "title": "Hello World!"
+    },
+    "contactUs": {
+      "title": "Contact us!"
+    },
+    "team": {
+      "title": "About us"
+    },
+    "member": {
+      "title": "Member"
+    },
+    "hackathons": {
+      "title": "Hackathons"
+    },
+    "hackathon": {
+      "title": "Hackathon"
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "project": {
+      "title": "Project"
+    }
+  }
+}
