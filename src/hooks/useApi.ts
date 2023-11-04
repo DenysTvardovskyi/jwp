@@ -1,7 +1,6 @@
 import { useMemo } from "react";
 import { useHTTP } from "./useHTTP";
 import { AxiosRequestHeaders } from "axios";
-import { IUser } from "../models";
 
 const API_URL: string = import.meta.env.VITE_BASE_URL!;
 
@@ -14,7 +13,7 @@ interface IApiAccountGetConfig extends IApiConfig {}
 
 export interface IUseApi {
   account: {
-    get: (config: IApiAccountGetConfig) => Promise<IUser>;
+    get: (config: IApiAccountGetConfig) => Promise<any>;
   };
 }
 
@@ -35,7 +34,7 @@ export const useApi: TUseApi = (): IUseApi => {
   return {
     account: {
       get: ({ loader }) => {
-        return http.request<IUser>({
+        return http.request<any>({
           method: "GET",
           url: `${API_URL}/account`,
           headers,

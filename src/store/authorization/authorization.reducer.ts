@@ -1,25 +1,10 @@
-import { IUser } from "../../models";
 import { RST_AUTHORIZATION, SET_AUTHORIZATION } from "./authorization.actions";
 
-export interface IState {
-  readonly accessToken: string;
-  readonly tokenType: string;
-  readonly user: IUser;
-}
+export interface IState {}
 
 export type TReducer = (state: IState, action: any) => IState;
 
-const initialState: IState = {
-  accessToken: "",
-  tokenType: "",
-  user: {
-    id: 0,
-    lastname: "",
-    firstname: "",
-    email: "",
-    username: "",
-  },
-};
+const initialState: IState = {};
 
 export const authorizationReducer: TReducer = (state: IState = initialState, action: any): IState => {
   switch (action.type) {
